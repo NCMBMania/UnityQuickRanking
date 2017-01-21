@@ -64,7 +64,7 @@ public class QuickRanking : MonoBehaviour
                 foreach (NCMBObject obj in objList)
                 {
                     rankingDataList.Add(new RankingData(
-                        count = num++,
+                         num++,
                          name: obj["Name"] as string,
                          score: Convert.ToInt32(obj["Score"]),
                          objectid: obj.ObjectId
